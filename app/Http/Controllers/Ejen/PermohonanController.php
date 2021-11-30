@@ -13,14 +13,14 @@ class PermohonanController extends Controller
     {
         //list all authenticate ppermohonan
         $permohonan = Permohonan::all(); 
-        return view('ejen.index', compact('permohonan'));
+        return view('ejen.permohonan.index', compact('permohonan'));
     }
 
 
     public function create()
     {
         //list all authenticate ppermohonan
-        return view('ejen.create');
+        return view('ejen.permohonan.create');
     }
 
 
